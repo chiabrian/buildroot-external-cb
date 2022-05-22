@@ -1,12 +1,20 @@
 # buildroot-external-cb
 
 ## Linux Packages
+
 ```
-sudo apt install debianutils sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc git libssl-dev libncurses5-dev
+sudo apt install debianutils sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc git libssl-dev libncurses5-dev python3-pip graphviz
 ```
+
 Create symlink for python3 to python
+
 ```
 sudo ln -s /usr/bin/python3 /usr/bin/python
+```
+
+Python Packages
+```
+pip3 install numpy matplotlib
 ```
 
 ## Tools needed
