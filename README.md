@@ -2,7 +2,7 @@
 
 ## Linux Packages
 ```
-sudo apt install debianutils sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc git
+sudo apt install debianutils sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc git libssl-dev
 ```
 
 ## Tools needed
