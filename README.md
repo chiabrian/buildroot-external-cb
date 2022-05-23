@@ -37,3 +37,12 @@ make O=$(pwd) BR2_EXTERNAL=$(pwd) -C ../buildroot xxx_defconfig
 ```
 
 ## How to program
+Check USB interface under root
+```
+sudo ~/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI -l usb
+```
+
+Change directory to images folder then call flash.tsv
+```
+sudo ~/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI -c port=usb1 -w ../board/stmicroelectronics/stm32mp157/flash.tsv
+```
