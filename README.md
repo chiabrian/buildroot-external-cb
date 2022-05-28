@@ -36,6 +36,17 @@ In Buildroot External Directory set configuration
 make O=$(pwd) BR2_EXTERNAL=$(pwd) -C ../buildroot xxx_defconfig
 ```
 
+Build statistics
+```
+make graph-build
+```
+```
+make graph-depends
+```
+```
+make graph-size
+```
+
 ## How to program
 Check USB interface under root
 ```
