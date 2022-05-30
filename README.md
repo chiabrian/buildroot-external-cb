@@ -36,6 +36,9 @@ In Buildroot External Directory set configuration
 make O=$(pwd) BR2_EXTERNAL=$(pwd) -C ../buildroot xxx_defconfig
 ```
 
+Build Errors
+* numerical_limits build errors due to use of gcc11 instead of gcc10
+
 Build statistics
 ```
 make graph-build
