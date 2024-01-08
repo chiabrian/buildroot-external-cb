@@ -12,6 +12,12 @@ Create symlink for python3 to python
 sudo ln -s /usr/bin/python3 /usr/bin/python
 ```
 
+Remove spaces from PATH for WSL
+
+```
+PATH="/bin:/usr/local/bin:/usr/bin"
+```
+
 Python Packages
 ```
 pip3 install numpy matplotlib
